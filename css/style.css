@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(175, 223, 143); 
+    color: rgb(7, 0, 0); 
+    font-size: 15px;
+}
+
+p{
+    color:blueviolet;
+    font-size: 20px;
+}
+
+.intro{
+    font-size: 30px;
+    color: brown;
+}
+
+.highlight{
+    background: yellow;
+}
+
+.accent-color{
+    color:red
+}
+
+h1 {
+    color:rgb(226, 134, 14);
+    font-size: 90px;
+}
+
+span{
+    color:rgb(76, 0, 255);
+}
+
+.top-section{
+    background: rgb(248, 246, 246);
+}
+
+.bottom-section{
+    background:black ;
+}
+ol{
+    color: blueviolet;
+}
