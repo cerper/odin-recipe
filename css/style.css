@@ -1,43 +1,35 @@
-body{
-    background-color: rgb(175, 223, 143); 
-    color: rgb(7, 0, 0); 
-    font-size: 15px;
+.container {
+    background: lightblue;
+   
+    border: 5px solid blue;
+    display: flex;
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+    gap:20px;
 }
 
-p{
-    color:blueviolet;
-    font-size: 20px;
+.container > div {
+    border: 3px solid black;
 }
 
-.intro{
-    font-size: 30px;
-    color: brown;
+.item{
+    background: skyblue;
+    border:  5px solid red;
 }
 
-.highlight{
-    background: yellow;
+body {
+    margin:0;
+
 }
 
-.accent-color{
-    color:red
+html, body {
+    box-sizing: border-box;
+    height:100%;
 }
 
-h1 {
-    color:rgb(226, 134, 14);
-    font-size: 90px;
+.home {
+    align-self: flex-start;
 }
 
-span{
-    color:rgb(76, 0, 255);
-}
 
-.top-section{
-    background: rgb(248, 246, 246);
-}
-
-.bottom-section{
-    background:black ;
-}
-ol{
-    color: blueviolet;
-}
